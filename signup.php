@@ -1,7 +1,6 @@
 <?php
  
 require_once('connectdb.php');
-
 if(isset($_POST['submit'])){
   $fname = $con->real_escape_string($_POST['fname']) ;
   $email = $con->real_escape_string($_POST['email']);
