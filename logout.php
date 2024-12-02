@@ -2,6 +2,8 @@
 
 session_start();
 
+
+
 unset($_SESSION['fullname']);
 unset($_SESSION['email']);
 session_destroy();
