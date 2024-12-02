@@ -9,7 +9,7 @@ Real-Time Tracking: Track the location of the nearest available ambulance.
 Admin Dashboard: Admins can view requests, dispatch ambulances, and manage services.
 Emergency Contact: Provides quick access to emergency numbers and important medical information.
 Notifications: Users receive real-time updates via notifications regarding ambulance arrival, status, etc.
-Technologies Used
+#### Technologies Used
 Frontend:
 
 HTML5
