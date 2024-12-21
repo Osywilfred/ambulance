@@ -107,6 +107,33 @@
       margin: 0;
       font-size: 0.9rem;
     }
+  
+
+          /* General Styling for the Link */
+          .styled-link {
+            display: inline-block; /* Allows padding and margin */
+            padding: 10px 20px; /* Adds spacing inside the link */
+            background-color: #007bff; /* Blue background */
+            color: white; /* White text */
+            text-decoration: none; /* Removes underline */
+            border-radius: 5px; /* Rounded corners */
+            font-family: Arial, sans-serif; /* Clean font */
+            font-size: 16px; /* Adjust font size */
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+        }
+
+        /* Hover Effect */
+        .styled-link:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+
+        /* Align to the Right */
+        .right-align {
+            float: right;
+            margin-left: 20px; 
+        }
+        
   </style>
 </head>
 <body>
@@ -117,7 +144,10 @@
       <p>Your safety is our priority. Find ambulances available near you.</p>
     </div>
   </header>
-
+       <br>
+      <a href="patient-resources.html" class="styled-link right-align">Patient Details</a>
+      <div style="clear: both;"></div>
+      
   <main class="main">
     <div class="container">
       <h2>Available Ambulances</h2>
